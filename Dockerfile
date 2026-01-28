@@ -18,6 +18,6 @@ WORKDIR /app
 
 COPY --from=build /app/dist ./dist
 
-EXPOSE 3003
+EXPOSE 5173
 
-CMD ["serve", "-s", "dist", "-l", "3003"]
+CMD ["serve", "-s", "dist", "-l", "5173"]
